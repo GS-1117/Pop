@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title> Exercice 1 </title>
+        <meta charset="utf-8"/>
+		<link rel="stylesheet" href="exi.css" />
+		<script src="https://kit.fontawesome.com/a89d872ece.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div id="Top">
+            <header>
+                <a href="#"> <img src="images/logo-UCA.jpg" alt="Logo du site web"> </a>
+            </header>
+            <nav>
+                <ul>
+                    <li> <a href="#"> Accueil </a> </li>
+                    <li> <a href="#Services"> Services </a> </li>
+                    <li> <a href="#Portfolio"> Portfolio </a></li>
+                    <li> <a href="#Contact"> Contact </a> </li>
+                </ul>
+            </nav>
+        </div>
+		
+		<section id="Services">
+            <h1> NOS SERVICES </h1>     
+            
+            <div class="Transition_Container">  
+                <hr>
+                <i class="fas fa-circle"></i>   
+            </div>
+
+            <div class="Catchline">
+                <p> Agence de conception multimédia  <br/> Sites en tous genres développés et maintenus par des professionnels reconnus dans leurs domaines</p>
+            </div>
+
+            <div id="Media"> 
+                <div id="Mac_Image">
+                    <img src="images/main-feature.png" alt="Photos de mac">
+                </div>
+                      
+                <div id="Informations"> 
+                    <div id="Informations_Logos">
+                        
+                        <div class="Logos_Circle">
+                            <i class="fas fa-chart-line"> </i>
+                            <i class="fas fa-circle"></i> 
+                        </div>
+                        
+                        <div class="Logos_Circle">
+                            <i class="fas fa-cubes"></i>
+                            <i class="fas fa-circle"></i> 
+                        </div>
+                        
+                        <div class="Logos_Circle"> 
+                            <i class="fas fa-chart-pie"></i>
+                            <i class="fas fa-circle"></i> 
+                        </div>  
+                        
+                    </div>
+                        
+                    <div id="Information_Text">
+                        <h2>UX Design</h2>
+                        <p> Une conception du produit qui correspondant aux <br> souhaits du client blog, e-commerce, forum... </p>
+
+                        <h2>UI Design</h2>
+                        <p> Nous respectons à la lettre les demandes du client <br> en effectuant une conception graphique minutieuse  </p>
+
+                        <h2>SEO</h2>
+                        <p> Des techniques de pointe permettant un référencement <br> optimisé et de qualité </p>
+                    </div>
+                </div>
+                     
+            </div>
+        </section>
