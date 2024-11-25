@@ -1,5 +1,6 @@
 #part1{
     background-color: #7A6456;
+    margin: -8px;
 }
 #logo{
     vertical-align: middle;
@@ -31,8 +32,133 @@ h1{
     font-size: 60px;
 }
 
+h2{
+font-weight: bold;
+}
 
 body{
     background-color: #EAE7E2;
     font-family: "Zilla Slab";
+}
+
+#base{
+    width: 56.55%;
+    border: 2px solid rgba(92, 65, 48, 0.80);
+    margin-left: 21%;
+}
+
+#popt{
+    background-color: #7A6456;
+    color: #EAE7E2;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Calistoga;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 21%;
+    margin-right: 22.26%;
+    margin-top: -4px;
+}
+
+.container{
+    text-align: center;
+}
+
+.background-image {
+    width: 100%;
+    opacity: 0.4;
+  }
+
+.foreground-image {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    z-index: 1;
+}
+h2{
+    display: flex;
+    width: 323px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-family: Calistoga;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+margin-left: 12%;
+}
+
+#pré{
+    width: 75%;
+margin-left: 13%;}
+
+#parainfo{
+font-family:'Zilla Slab';
+color: #000;
+text-align: justify;
+font-family: "Zilla Slab";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#hr{
+    width: 592.013px;
+    height: 1px;
+    color: #5C4130;
+}
+
+#fin{
+    margin-left: 21%;
+    margin-top: -20px;
+    padding-bottom: 100px;
+}
+
+
+footer{
+   background-color: #7A6456;
+   margin: -8px;
+}
+#disp{
+display: flex;
+margin-left: 40px;
+}
+#b{
+margin-left:37%;
+margin-right: 28%;
+color: #EAE7E2;
+text-align: center;
+}
+
+#contact{
+    color: #EAE7E2;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+fieldset{
+    background-color: #EAE7E2;
+    width: 55%;
+    margin-left: 21%;
+}
+#rs{
+    height: 80px;
 }
