@@ -14,17 +14,19 @@
             <div id="part1">
                 <nav>
                     <ul>
-                        <li><a href="./Accueil.html">Accueil</a></li>
-                        <li><a href="./Gallerie.html"> Gallerie</a></li>
-                        <li><a href="./Nous connaitre.html"> Nous connaitre</a></li>
+                        <li><a href="./index.html">Accueil</a></li>
+                        <li><a href="./index_2.html"> Gallerie</a></li>
+                        <li><a href="./index_3.html"> Nous connaitre</a></li>
                     </ul>
                 </nav>
-                <img src="logo.png" alt="" width="73" height="73">
+                <img id="logo" src="./Images/logo.png" alt="logo">
             </div>
 
             <div id="part2">
                 <h1>POP !</h1>
-                <img src="banner.png" alt="Clear Foreground" class="foreground-image">
+                <img class="background-image" src="./Images/banner.png" alt="banner">
+                <img class="foreground-image" src="./Images/banner1.png" alt="banner">
+
             </div>
         </header>
 
@@ -33,17 +35,17 @@
         <h2 class="underline" style="margin-top: 20px"> Nos Pop Up en cours</h2>
 
         <div class="container">
-            <img src="pop1.jpg" alt="Pop Up Marvel" class="img-fluid">
+            <img src="./Images/marv.jpg" alt="Pop Up Marvel">
             <p>Pop Up Marvel</p>
         </div>
 
         <div class="container">
-            <img src="pop1.jpg" alt="Pop Up Projection" class="img-fluid">
+            <img src="./Images/projection.jpg" alt="Pop Up Projection" class="img-fluid">
             <p>Pop Up Projection</p>
         </div>
 
         <div class="container">
-            <img src="pop1.jpg" alt="Pop Up Sculptures Antiques" class="img-fluid">
+            <img src="./Images/projection.jpg" alt="Pop Up Sculptures Antiques" class="img-fluid">
             <p>Pop Up Sculptures Antiques</p>
         </div>
 
@@ -83,18 +85,25 @@
 
     <!-- footer -->
     <footer>
-        <p>Nous contacter :</p>
-        <p>Formulaire :</p>
-        <div>
-            <img src="logo.png" alt="" width="73" height="73">
-            <P>pop!galerie@mail.com
-                06 1117 2410
-                Aide
-                Mentions Légales
+        <p id="contact">Nous contacter :</p>
+        <fieldset>
+            <p><label>Nom et Prenom :</label><br><input type="text" id="NP" placeholder="Name & Surname" required></p>
+            <p><label>Adresse :</label><br><input type="text" id="Adr" placeholder="Place" required></p>
+            <p><label>Code Postal :</label><br><input type="text" id="CP" placeholder="Postal Code" required></p>
+            <p><label>Pays :</label><br><input type="text" id="P" placeholder="Ex : France" required></p>
+            <input type="submit" id="comm" value="Fini">
+        </fieldset>
+
+        <div id="disp">
+            <img src="./Images/logo.png" alt="" width="73" height="73">
+            <P id="b">pop!galerie@mail.com <br>
+                06 1117 2410<br>
+                Aide<br>
+                Mentions Légales<br>
             </P>
-            <img src="ig" alt="ig">
-            <img src="fb" alt="fb">
-            <img src="x" alt="x">
+            <img id="rs" src="./Images/ig.png" alt="ig">
+            <img id="rs" src="./Images/fb.png" alt="fb">
+            <img id="rs" src="./Images/x.png" alt="x">
         </div>
     </footer>
 </html>
