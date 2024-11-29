@@ -26,27 +26,21 @@ nav ul li a{
     padding: 50px;
     font-size: 25px;
 }
+
+
 h1{
     text-align: center;
     font-family: "Abril Fatface";
     font-size: 60px;
 }
-
-h2{
-font-weight: bold;
-}
-
 body{
-    background-color: #EAE7E2;
-    font-family: "Zilla Slab";
+    background: radial-gradient(50% 50% at 50% 50%, #FFF 41%, #EAE7E2 100%);    font-family: "Zilla Slab";
 }
-
 #base{
     width: 56.55%;
     border: 2px solid rgba(92, 65, 48, 0.80);
     margin-left: 21%;
 }
-
 #popt{
     background-color: #7A6456;
     color: #EAE7E2;
@@ -62,16 +56,13 @@ body{
     margin-right: 22.26%;
     margin-top: -4px;
 }
-
 .container{
     text-align: center;
 }
-
 .background-image {
     width: 100%;
     opacity: 0.4;
   }
-
 .foreground-image {
     position: absolute;
     top: 35%;
@@ -81,19 +72,8 @@ body{
     z-index: 1;
 }
 h2{
-    display: flex;
-    width: 323px;
-    height: 47px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #000;
-text-align: center;
-leading-trim: both;
-text-edge: cap;
-font-family: Calistoga;
+color: #000;
 font-size: 32px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration-line: underline;
@@ -102,13 +82,11 @@ text-decoration-skip-ink: none;
 text-decoration-thickness: auto;
 text-underline-offset: auto;
 text-underline-position: from-font;
-margin-left: 12%;
+margin-left: 13%;
 }
-
 #pré{
-    width: 75%;
+width: 75%;
 margin-left: 13%;}
-
 #parainfo{
 font-family:'Zilla Slab';
 color: #000;
@@ -119,19 +97,37 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
 #hr{
     width: 592.013px;
     height: 1px;
     color: #5C4130;
 }
-
 #fin{
     margin-left: 21%;
     margin-top: -20px;
     padding-bottom: 100px;
 }
-
+#pt2{
+    background-color: #7A6456;
+    color: #EAE7E2;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -22px;
+    margin-left: 5.8%;
+    margin-right: 5.8%;
+}
+#qui{
+    background-color: #EAE7E2;
+    color:#5C4130;
+    border: #5C4130 solid 2px;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 52.6%;
+    margin-left: 21%;
+}
 
 footer{
    background-color: #7A6456;
@@ -147,13 +143,11 @@ margin-right: 28%;
 color: #EAE7E2;
 text-align: center;
 }
-
 #contact{
     color: #EAE7E2;
     padding-left: 30px;
     padding-top: 10px;
 }
-
 fieldset{
     background-color: #EAE7E2;
     width: 55%;
@@ -161,4 +155,12 @@ fieldset{
 }
 #rs{
     height: 80px;
+}
+#carre{
+    height: 260px;
+    margin: 17px;
+}
+#box1, #box2, #box3{
+    display: flex;
+    margin: 10px;
 }
