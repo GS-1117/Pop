@@ -27,12 +27,15 @@ nav ul li a{
     font-size: 25px;
 }
 
-
+nav ul li a:hover{
+    border: #EAE7E2 2px solid;
+}
 h1{
     text-align: center;
     font-family: "Abril Fatface";
     font-size: 60px;
 }
+
 body{
     background: radial-gradient(50% 50% at 50% 50%, #FFF 41%, #EAE7E2 100%);    font-family: "Zilla Slab";
 }
@@ -101,7 +104,25 @@ line-height: normal;
     width: 592.013px;
     height: 1px;
     color: #5C4130;
+}   
+.img :hover{
+    opacity: 0.3;
+    transition: .5s ease;
 }
+#mid{
+transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+ #mid :hover{
+    opacity: 1;
+    transition: .5s ease;
+    color: #000;
+}
+
 #fin{
     margin-left: 21%;
     margin-top: -20px;
@@ -135,13 +156,12 @@ footer{
 }
 #disp{
 display: flex;
-margin-left: 40px;
 }
 #b{
-margin-left:37%;
-margin-right: 28%;
+margin-left:20%;
 color: #EAE7E2;
 text-align: center;
+margin-right: 15%;
 }
 #contact{
     color: #EAE7E2;
@@ -154,7 +174,8 @@ fieldset{
     margin-left: 21%;
 }
 #rs{
-    height: 80px;
+    height: 80%;
+    margin-left: -1%;
 }
 #carre{
     height: 260px;
@@ -164,3 +185,4 @@ fieldset{
     display: flex;
     margin: 10px;
 }
+
