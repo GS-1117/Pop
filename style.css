@@ -17,14 +17,13 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    margin-left: 50px;
 }
 nav ul li a{
     color: #EAE7E2;
     font-family: "Zilla Slab";
     text-decoration: none;
-    padding: 50px;
     font-size: 25px;
+    margin-right: 20px;
 }
 
 nav ul li a:hover{
@@ -101,7 +100,7 @@ font-weight: 400;
 line-height: normal;
 }
 #hr{
-    width: 592.013px;
+     width: 50%;
     height: 1px;
     color: #5C4130;
 }   
@@ -155,13 +154,14 @@ footer{
    margin: -8px;
 }
 #disp{
-display: flex;
+display:flex;
+flex-wrap: wrap;
+margin-left: 1%;
 }
 #b{
-margin-left:20%;
+margin-left:25%;
 color: #EAE7E2;
 text-align: center;
-margin-right: 15%;
 }
 #contact{
     color: #EAE7E2;
@@ -173,9 +173,15 @@ fieldset{
     width: 55%;
     margin-left: 21%;
 }
+#réseaux{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:25%;
+
+}
 #rs{
-    height: 80%;
-    margin-left: -1%;
+    height: 30%;
+    margin: 1%;
 }
 #carre{
     height: 260px;
@@ -183,6 +189,51 @@ fieldset{
 }
 #box1, #box2, #box3{
     display: flex;
+    flex-wrap: wrap;
     margin: 10px;
 }
 
+
+
+
+
+@media screen and (max-width:600px) {
+
+    #logo{
+        height: 37px;
+        margin-right: 8px;
+        margin-top: 5px;}
+        nav{
+        margin-left: -20px;}
+        nav ul li a{
+        font-size: 15px;
+        margin-right: 20px;}
+    h1{
+        font-size: 40px;}
+    .foreground-image {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 75%;
+        z-index: 1;}
+    h2{
+        font-size: 20px;}
+    #parainfo{
+        font-size: 14px;}
+    #bbrr{
+        display: none;}
+    #base{
+        width: 65%;
+        margin-left: 18%;}
+    #popt{
+        font-size: 15px;
+        margin-left: 18%;
+        margin-right: 16%;}
+    #fin{
+        font-size: 10px;
+        padding-top: 5px;}
+    #b{
+        font-size: 10px;}
+   
+}
